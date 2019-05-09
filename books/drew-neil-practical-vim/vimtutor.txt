@@ -1,0 +1,24 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+		     Lesson 1.0: RUN VIM IN DEFAULT 
+
+        ** Run VIM without .vimrc **
+    ----------------------------------------------------------------------
+    ➾ $ vim -u NONE -N
+    ----------------------------------------------------------------------
+    1. "-N" - not return to vi compatibility mode 
+
+
+    ** Run VIM with minimum settings set **
+    ----------------------------------------------------------------------
+    ➾ $ vim -u settings.vim 
+    ----------------------------------------------------------------------
+    * - You should have the file "settings.vim" in current folder when 
+        starging vim 
+
+settings.vim
+---
+set nocompatible
+filetype plugin on     
+---
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
