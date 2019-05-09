@@ -8,7 +8,7 @@
     1. "-N" - not return to vi compatibility mode 
 
 
-    ** Run VIM with minimum settings set **
+        ** Run VIM with minimum settings set **
     ----------------------------------------------------------------------
     ➾ $ vim -u settings.vim 
     ----------------------------------------------------------------------
